@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Input Page</title>
+    <link rel="stylesheet" href="taskcss.css">
+</head>
+<body>
+<div class="input-container">
+    <h1>Data Input</h1>
+    <div class="input-box">
+        <!-- Two input fields for task name and task content -->
+        <input type="text" id="taskNameInput" placeholder="Enter task name..." required>
+        <input type="text" id="taskContentInput" placeholder="Enter task content..." required>
+        <button id="addButton">Save Task</button>
+    </div>
+</div>
+<div class="data-container">
+    <h2>Task List</h2>
+    <ul id="dataList">
+        <!-- Tasks will be displayed here -->
+    </ul>
+</div>
+<script src="taskjs.js"></script>
+</body>
+</html>
